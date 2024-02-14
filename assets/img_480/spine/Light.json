@@ -1,0 +1,57 @@
+{
+"skeleton": { "hash": "aV4ExIjsdLaSFfJdH1Ls5Qb8rV4", "spine": "3.6.53", "width": 59, "height": 60 },
+"bones": [
+	{ "name": "root" },
+	{ "name": "Bone Light 1", "parent": "root", "length": 37.24, "rotation": 91.57, "x": -1.05, "y": 0.06 },
+	{ "name": "bone", "parent": "Bone Light 1", "length": 26.44, "rotation": -0.9, "x": 17.43, "y": -5.09 }
+],
+"slots": [
+	{ "name": "Wooden Table", "bone": "root" },
+	{ "name": "1", "bone": "Bone Light 1", "attachment": "1" },
+	{ "name": "Light 1", "bone": "bone", "attachment": "Light 1" }
+],
+"skins": {
+	"default": {
+		"1": {
+			"1": { "x": 28.56, "y": -2.37, "rotation": -91.57, "width": 15, "height": 30 }
+		},
+		"Light 1": {
+			"Light 1": { "x": 10.1, "y": 3.9, "rotation": -90.67, "width": 59, "height": 60 }
+		}
+	}
+},
+"animations": {
+	"animation": {
+		"bones": {
+			"Bone Light 1": {
+				"rotate": [
+					{ "time": 0, "angle": 0.02, "curve": "stepped" },
+					{ "time": 0.8, "angle": 0.02 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": -0.41 },
+					{ "time": 0.4, "x": 0.34, "y": -0.87 },
+					{ "time": 0.8, "x": 0, "y": -0.41 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 },
+					{ "time": 0.4, "x": 1.024, "y": 1.051 },
+					{ "time": 0.8, "x": 1, "y": 1 }
+				]
+			},
+			"bone": {
+				"translate": [
+					{ "time": 0, "x": -0.93, "y": 0.03 },
+					{ "time": 0.4, "x": -0.85, "y": 0.02 },
+					{ "time": 0.8, "x": -0.93, "y": 0.03 }
+				],
+				"scale": [
+					{ "time": 0, "x": 0.994, "y": 1 },
+					{ "time": 0.4, "x": 1.161, "y": 1.092 },
+					{ "time": 0.8, "x": 0.994, "y": 1 }
+				]
+			}
+		}
+	}
+}
+}
